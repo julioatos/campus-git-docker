@@ -19,17 +19,10 @@ Ejecutar imagen de hello-world:
  
  # GIT
  
- Para subir los cambios de un repositorio local a un repositorio remoto, primeramente, se ejecuta:
- > git init
+ Para subir los cambios de un repositorio local a un repositorio remoto, se ejecutan los siguientes comandos:
  
- despues se asocia el repositorio local con el remoto, ejecutando el comando:
- > git remote add "link del repositorio"
-
- Una vez ligado el repositorio remoto al local para subir cambios o subir archivos, se hace lo siguiente:
-	1. Haces un stage de los cambios realizados al repositorio con:
-		> git add .
-	
-	2. Una vez hecho el stage de los cambios, se procede a hacerles commit con:
-		> git commit -m "Este es un commit"
-	3. Finalmente, se migran los cambios del repositorio local al remoto con:
-		> git push origin master
+ ```
+ git add . <- Este comando hace un stage a los cambios realizados
+ git commit -m "Ejemplo" <- Este comando le hace un commit a los cambios en staged
+ git push origin master <- Este comando manda los cambios al repositorio remoto
+ ```
