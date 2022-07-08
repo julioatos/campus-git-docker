@@ -22,7 +22,7 @@ Ejecutar imagen de hello-world:
  Para subir los cambios de un repositorio local a un repositorio remoto, se ejecutan los siguientes comandos:
  
  ```
- git remote add "link del repositorio" <- Este comando vincula el repositorio remoto al local
+ git remote add origin "link del repositorio" <- Este comando vincula el repositorio remoto al local
  git add . <- Este comando hace un stage a los cambios realizados
  git commit -m "Ejemplo" <- Este comando le hace un commit a los cambios en staged
  git push origin master <- Este comando manda los cambios al repositorio remoto
